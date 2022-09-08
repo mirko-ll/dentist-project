@@ -32,3 +32,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Multilanguage Selection
+
+- Used libraries: https://github.com/i18next/next-i18next, https://github.com/aralroca/next-translate
+- Update next.config.js for locales and default locale
+- Dropdown component made for locale selection
+- i18n.json file made for next-translate and configured next.config for it
+- Folder structure made that coresponds to namespaces defined in i18n.json file
+- Pull those files and use their data through custom hook "useTranslation" from next-translate package and coresponding namespaces for that route
