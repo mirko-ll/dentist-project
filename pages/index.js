@@ -69,8 +69,12 @@ export default function Home() {
         >
           SignIn With Google
         </button>
-        {locale}
       </form>
+      <h1>Testing Schema Markup</h1>
+      <a itemType="https://schema.org/Product" itemScope>
+        <h2 itemProp="name">Name of the product</h2>
+        <p itemProp="brand">Brand of the product</p>
+      </a>
     </div>
   );
 }
